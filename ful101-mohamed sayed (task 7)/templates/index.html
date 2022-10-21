@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assits/css/all.min.css">
+    <link rel="stylesheet" href="../assits/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assits/css/style.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>My HoTel</title>
+</head>
+<body>
+   <header class="position-fixed top-0 w-100">
+    <nav class="navbar navbar-expand-lg bg-light d-flex">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse  justify-content-centre" id="navbarTogglerDemo01">
+          <a class="navbar-brand animate__animated animate__bounce animate__delay-1s" href="#">MY HoTel</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#services">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#hotels">Hotels</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#book">Book Now</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#log">Login</a>
+            </li>
+             </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline search-bt bgg-blue" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+   </header>
+   <main>
+    <div class="pic position-relative mb-5">
+      <div class="filter w-100  bg-opacity-10 position-absolute top-0 bottom-0 left-0 right-0 h-100"></div>
+      <div class="container text-center position-relative wrapper">
+        <h1 class="text-light t-after">Your Best Choice To Book a Hotel</h1>
+        <a class="btn-xl btnn" href="#book">Book Now!</a>
+      </div>
+    </div>
+    <section class=" mt-5 container text-center" id="services">
+      <div class="my-5 ">
+      <h3 class="my-5 f-light t-after">At Your Services</h3>
+      <div class="row fs-1 flex-wrap container">
+      <div class="col-lg-3 col-sm-6 fs-4 my-5"><i class="blue fs-1 fa-solid fa-money-check-dollar"></i></i><p>Best Price</p><span class="d-block opacity-50 fs-5 px-5">We help you to find a best price</span></div>
+      <div class="col-lg-3 col-sm-6 fs-4 my-5"><i class="blue fs-1 fa-solid fa-door-open"></i><p>Best Services</p><span class="d-block opacity-50 fs-5 px-5">We give you a best services</span></div>
+      <div class="col-lg-3 col-sm-6 fs-4 my-5"><i class="blue fs-1 fa-solid fa-hand-holding-dollar"></i><p>No Commission</p><span class="d-block opacity-50 fs-5 px-5">We never take a commission </span></div>
+      <div class="col-lg-3 col-sm-6 fs-4 my-5"><i class="blue fs-1 fa-solid fa-martini-glass-citrus"></i><p>A trust place </p><span class="d-block opacity-50 fs-5 px-5">We wont give you a fake data</span></div>
+      </div>
+      </div>
+    </section>
+        <section class="container row mx-auto mt-5 " id="hotels">
+          <div class="mb-5">
+          <p class="t-after text-center fs-1 ">Our Hotels</p>
+          </div>
+            <div class="col-sm-6">
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <div class="img-wrapper">
+                    <img src="../assits/images/cairo/istockphoto-171450925-612x612.jpg" alt="cairo">
+                </div>
+                  <h2 class="accordion-header" id="panelsStayOpen-headingone">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseone" aria-expanded="false" aria-controls="panelsStayOpen-collapseone">
+                      Cairo
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseone" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingone">
+                    <div class="accordion-body row">
+                      <div class="col-lg-4 col-sm-6">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="../assits/images/cairo/116989077.webp" alt="pyramids hotel" class="w-100">
+                            <div class="card-body">
+                              <p class="card-title">Pyramids <br> Hotel</p>
+                              <p class="text-warning">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </p> 
+                            <span class="text-success">Very Good</span>
+                            <span class="text-muted">2000 reviewes</span>
+                            <p>900 <span class="blue">EGP</span> per Night</p>
+                            
+                              <a href="#book" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+                          
+                    </div> 
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="../assits/images/cairo/277751146.webp" alt="novetel hotel" class="w-100">
+                            <div class="card-body">
+                              <p class="card-title">Novetel<br>Hotel</p>
+                              <p class="text-warning">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </p> 
+                            <span class="text-success">Exclient</span>
+                            <span class="text-muted">4000 reviewes</span>
+                            <p>1500 <span class="blue">EGP</span> per Night</p>
+                            
+                              <a href="#book" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+                          
+                    </div> 
+                     <div class="col-lg-4 col-sm-6">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="../assits/images/cairo/333423583.webp" alt="Sovetel hotel" class="w-100">
+                            <div class="card-body">
+                              <p class="card-title">Sovetel<br>Hotel</p>
+                              <p class="text-warning">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </p> 
+                            <span class="text-success">Very Good</span>
+                            <span class="text-muted">3000 reviewes</span>
+                            <p>1000 <span class="blue">EGP</span> per Night</p>
+                            
+                              <a href="#book" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="img-wrapper">
+                    <img src="../assits/images/ain sokhna/b4m7_ho_00_p_1024x768.jpg" alt="Ain-Sokhna">
+                </div>
+                  <p class="accordion-header" id="panelsStayOpen-headingfive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefive" aria-expanded="false" aria-controls="panelsStayOpen-collapsefive">
+                      Ain-Sokhna
+                    </button>
+                  </p>
+                  <div id="panelsStayOpen-collapsefive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingfive">
+                    <div class="accordion-body row">
+                      <div class="col-lg-4 col-sm-6">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="../assits/images/ain sokhna/254776087.webp" alt="Tolip Reset hotel" class="w-100">
+                            <div class="card-body">
+                              <p class="card-title">Tolip Reset <br> Hotep</p>
+                              <p class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </p> 
+                            <span class="text-success">Very Good</span>
+                            <span class="text-muted">2000 reviewes</span>
+                            <p>850 <span class="blue">EGP</span> per Night</p>
+                            
+                              <a href="#book" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+                          
+                    </div> 
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="../assits/images/ain sokhna/25852501.webp" alt="helton hotel" class="w-100">
+                            <div class="card-body">
+                              <p class="card-title"> Elite <br> Hotel </p>
+                              <p class="text-warning">
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </p> 
+                            <span class="text-success">Exclient</span>
+                            <span class="text-muted">3000 reviewes</span>
+                            <p>1300 <span class="blue">EGP</span> per Night</p>
+                            
+                              <a href="#book" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+                          
+                    </div> 
+                     <div class="col-lg-4 col-sm-6">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="../assits/images/ain sokhna/70511429.webp" alt="romance hotel" class="w-100">
+                            <div class="card-body">
+                              <p class="card-title"> Romance <br> Hotel</p>
+                              <p class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </p> 
+                            <span class="text-success">Good</span>
+                            <span class="text-muted">3500 reviewes</span>
+                            <p>600 <span class="blue">EGP</span> per Night</p>
+                            
+                              <a href="#book" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+                          
+                    </div> 
+                </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <div class="img-wrapper">
+                    <img src="../assits/images/sharm/gettyimages-139971783-612x612.jpg" alt="sharm">
+                </div>
+                  <p class="accordion-header" id="panelsStayOpen-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      Sharm EL-Sheikh
+                    </button>
+                  </p>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                    <div class="accordion-body row">
+                      <div class="col-lg-4 col-sm-6">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="../assits/images/sharm/181641057.webp" alt="Aida hotel" class="w-100">
+                            <div class="card-body">
+                              <p class="card-title">Aida <br> Hotel</p>
+                              <p class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </p> 
+                            <span class="text-success">Very Good</span>
+                            <span class="text-muted">2000 reviewes</span>
+                            <p>800 <span class="blue">EGP</span> per Night</p>
+                            
+                              <a href="#book" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+                          
+                    </div> 
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="../assits/images/sharm/183490853.webp" alt="helton hotel" class="w-100">
+                            <div class="card-body">
+                              <p class="card-title">Coral Sea<br>Hotel</p>
+                              <p class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </p> 
+                            <span class="text-success">Exclient</span>
+                            <span class="text-muted">3000 reviewes</span>
+                            <p>1200 <span class="blue">EGP</span> per Night</p>
+                            
+                              <a href="#book" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+                          
+                    </div> 
+                     <div class="col-lg-4 col-sm-6">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="../assits/images/sharm/86559077.webp" alt="old hotel" class="w-100">
+                            <div class="card-body">
+                              <p class="card-title">Old vic <br> Hotel</p>
+                              <p class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </p> 
+                            <span class="text-success">Good</span>
+                            <span class="text-muted">3500 reviewes</span>
+                            <p>600 <span class="blue">EGP</span> per Night</p>
+                            
+                              <a href="#book" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+                          
+                    </div> 
+                </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="img-wrapper">
+                      <img src="../assits/images/luxor/2021_2_6_17_55_53_723.jpg" alt="luxor">
+                  </div>
+                    <p class="accordion-header" id="panelsStayOpen-headingeight">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseeight" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        Luxor
+                      </button>
+                    </p>
+                    <div id="panelsStayOpen-collapseeight" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingeight">
+                      <div class="accordion-body row">
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card w-100" style="width: 18rem;">
+                              <img src="../assits/images/luxor/308783531.webp" alt="pramisa hotel" class="w-100">
+                              <div class="card-body">
+                                <p class="card-title">Parmisa <br> Hotel</p>
+                                <p class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              </p> 
+                              <span class="text-success">Very Good</span>
+                              <span class="text-muted">2000 reviewes</span>
+                              <p>900 <span class="blue">EGP</span> per Night</p>
+                              
+                                <a href="#book" class="btn btn-primary">Book Now</a>
+                              </div>
+                            </div>
+                            
+                      </div> 
+                      <div class="col-lg-4 col-sm-6">
+                          <div class="card w-100" style="width: 18rem;">
+                              <img src="../assits/images/luxor/327037713.webp" alt="sovetol hotel" class="w-100">
+                              <div class="card-body">
+                                <p class="card-title">Sovetol<br>Hotel</p>
+                                <p class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              </p> 
+                              <span class="text-success">Exclient</span>
+                              <span class="text-muted">3500 reviewes</span>
+                              <p>1500 <span class="blue">EGP</span> per Night</p>
+                              
+                                <a href="#book" class="btn btn-primary">Book Now</a>
+                              </div>
+                            </div>
+                            
+                      </div> 
+                       <div class="col-lg-4 col-sm-6">
+                          <div class="card w-100" style="width: 18rem;">
+                              <img src="../assits/images/luxor/334702813.webp" alt="aprotel hotel" class="w-100">
+                              <div class="card-body">
+                                <p class="card-title">Aprotel<br>Hotel</p>
+                                <p class="text-warning">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              </p> 
+                              <span class="text-success">Good</span>
+                              <span class="text-muted">1500 reviewes</span>
+                              <p>600 <span class="blue">EGP</span> per Night</p>
+                              
+                                <a href="#book" class="btn btn-primary">Book Now</a>
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <div class="img-wrapper">
+                    <img src="../assits/images/alex/1753.jpg" alt="alex">
+                </div>
+                  <p class="accordion-header" id="panelsStayOpen-headingseven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseseven" aria-expanded="false" aria-controls="panelsStayOpen-collapseseven">
+                      Alex
+                    </button>
+                  </p>
+                  <div id="panelsStayOpen-collapseseven" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingseven">
+                    <div class="accordion-body row">
+                      <div class="col-lg-4 col-sm-6">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="../assits/images/alex/272437642.webp" alt="romance hotel" class="w-100">
+                            <div class="card-body">
+                              <p class="card-title">Romance <br> Hotel</p>
+                              <p class="text-warning"><i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </p> 
+                            <span class="text-success">Very Good</span>
+                            <span class="text-muted">2500 reviewes</span>
+                            <p>500 <span class="blue">EGP</span> per Night</p>
+                            
+                              <a href="#book" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+                          
+                    </div> 
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="../assits/images/alex/313055959.webp" alt="helton hotel" class="w-100">
+                            <div class="card-body">
+                              <p class="card-title">Hellton<br>Hotel</p>
+                              <p class="text-warning"><i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </p> 
+                            <span class="text-success">Exclient</span>
+                            <span class="text-muted">3500 reviewes</span>
+                            <p>800 <span class="blue">EGP</span> per Night</p>
+                            
+                              <a href="#book" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+                          
+                    </div> 
+                     <div class="col-lg-4 col-sm-6">
+                        <div class="card w-100" style="width: 18rem;">
+                            <img src="../assits/images/alex/375696606.webp" alt="cecel hotel" class="w-100">
+                            <div class="card-body">
+                              <p class="card-title">cecel<br>Hotel</p>
+                              <p class="text-warning"><i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                            </p> 
+                            <span class="text-success">Good</span>
+                            <span class="text-muted">1500 reviewes</span>
+                            <p>600 <span class="blue">EGP</span> per Night</p>
+                            
+                              <a href="#book" class="btn btn-primary">Book Now</a>
+                            </div>
+                          </div>
+                          
+                    </div> 
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="accordion-item">
+                  <div class="img-wrapper">
+                    <img src="../assits/images/ghardaqa/gettyimages-639402822-612x612.jpg" alt="ghardaqa">
+                </div>
+                  <p class="accordion-header" id="panelsStayOpen-headingfour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsefour" aria-expanded="false" aria-controls="panelsStayOpen-collapsefour">
+                      Ghardaqa
+                    </button>
+                  </p>
+                  <div id="panelsStayOpen-collapsefour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingfour">              
+                    <div class="accordion-body row">
+                        <div class="col-lg-4 col-sm-6">
+                  <div class="card w-100" style="width: 18rem;">
+                      <img src="../assits/images/ghardaqa/143157603.webp" alt="sky view hotel" class="w-100">
+                      <div class="card-body">
+                        <p class="card-title">Sky View<br> Hotel</p>
+                        <p class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </p> 
+                      <span class="text-success">Very Good</span>
+                      <span class="text-muted">2000 reviewes</span>
+                      <p>700 <span class="blue">EGP</span> per Night</p>
+                      
+                        <a href="#book" class="btn btn-primary">Book Now</a>
+                      </div>
+                    </div>
+                    
+              </div> 
+              <div class="col-lg-4 col-sm-6">
+                  <div class="card w-100" style="width: 18rem;">
+                      <img src="../assits/images/ghardaqa/378659806.webp" alt="Evel hotel" class="w-100">
+                      <div class="card-body">
+                        <p class="card-title">Evel <br> Hotel</p>
+                        <p class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </p> 
+                      <span class="text-success">Exclient</span>
+                      <span class="text-muted">3000 reviewes</span>
+                      <p>1400 <span class="blue">EGP</span> per Night</p>
+                      
+                        <a href="#book" class="btn btn-primary">Book Now</a>
+                      </div>
+                    </div>
+                    
+              </div> 
+               <div class="col-lg-4 col-sm-6">
+                  <div class="card w-100" style="width: 18rem;">
+                      <img src="../assits/images/ghardaqa/61680089.webp" alt="Elaria hotel" class="w-100">
+                      <div class="card-body">
+                        <p class="card-title">Elaria <br> Hotel</p>
+                        <p class="text-warning">
+                          <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                      </p> 
+                      <span class="text-success">Good</span>
+                      <span class="text-muted">3500 reviewes</span>
+                      <p>800 <span class="blue">EGP</span> per Night</p>
+                      
+                        <a href="#book" class="btn btn-primary">Book Now</a>
+                      </div>
+                    </div>
+                    
+              </div> 
+             </div>
+                </div>
+              
+                <div class="accordion-item">
+                  <div class="img-wrapper">
+                    <img src="../assits/images/sant katreen/elaosboa64102.jpg" alt="sant katreen">
+                    </div>
+                  <p class="accordion-header" id="panelsStayOpen-headingsix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapsesix" aria-expanded="false" aria-controls="panelsStayOpen-collapsesix">
+                      Sant Katreen
+                    </button>
+                  </p>
+                  <div id="panelsStayOpen-collapsesix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingsix">
+                    <div class="accordion-body row">
+                         <div class="col-lg-4 col-sm-6">
+                            <div class="card w-100" style="width: 18rem;">
+                                <img src="../assits/images/sant katreen/17948642_v2.webp" alt="monica hotel" class="w-100">
+                                <div class="card-body">
+                                  <p class="card-title">Monica <br> Hotel</p>
+                                  <p class="text-warning">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                </p> 
+                                <span class="text-success">Good</span>
+                                <span class="text-muted">500 reviewes</span>
+                                <p>500 <span class="blue">EGP</span> per Night</p>
+                                
+                                  <a href="#book" class="btn btn-primary">Book Now</a>
+                                </div>
+                              </div>
+                              
+                        </div> 
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="card w-100" style="width: 18rem;">
+                                <img src="../assits/images/sant katreen/331157541.jpg" alt="holy valy hotel" class="w-100 hi">
+                                <div class="card-body">
+                                  <p class="card-title">Holy Valy<br>Hotel</p>
+                                  <p class="text-warning"><i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                
+                                </p> 
+                                <span class="text-success">Very Good</span>
+                                <span class="text-muted">700 reviewes</span>
+                                <p>800 <span class="blue">EGP</span> per Night</p>
+                                
+                                  <a href="#book" class="btn btn-primary">Book Now</a>
+                                </div>
+                              </div>
+                              
+                        </div> 
+                         <div class="col-lg-4 col-sm-6">
+                            <div class="card w-100" style="width: 18rem;">
+                                <img src="../assits/images/sant katreen/691241.webp" alt="katreen plaza hotel" class="w-100">
+                                <div class="card-body">
+                                  <p class="card-title">Katreen Plaza Hotel</p>
+                                  <p class="text-warning"><i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                </p> 
+                                <span class="text-success">Exclient</span>
+                                <span class="text-muted">1000 reviewes</span>
+                                <p>1000 <span class="blue">EGP</span> per Night</p>
+                                
+                                  <a href="#book" class="btn btn-primary">Book Now</a>
+                                </div>
+                              </div>
+                              
+                        </div> 
+                    </div>
+                    </div>
+                  </div>
+                  <div class="accordion-item">
+                    <div class="img-wrapper">
+                      <img src="../assits/images/aswan/150434439_10216763019102639_7020020985283155214_n.jpg" alt="aswan">
+                    </div>
+                    <p class="accordion-header" id="panelsStayOpen-headingTwo">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        Aswan
+                      </button>
+                    </p>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                      <div class="accordion-body row">
+                        <div class="col-lg-4 col-sm-6">
+                          <div class="card w-100" style="width: 18rem;">
+                              <img src="../assits/images/aswan/16763437.webp" alt="pyramisa hotel" class="w-100">
+                              <div class="card-body">
+                                <p class="card-title">Pyramisa Island Hotel</p>
+                                <p class="text-warning">
+                                  <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              </p> 
+                              <span class="text-success">Very Good</span>
+                              <span class="text-muted">1500 reviewes</span>
+                              <p>800 <span class="blue">EGP</span> per Night</p>
+                              
+                                <a href="#book" class="btn btn-primary">Book Now</a>
+                              </div>
+                            </div>
+                            
+                      </div> 
+                      <div class="col-lg-4 col-sm-6">
+                          <div class="card w-100" style="width: 18rem;">
+                              <img src="../assits/images/aswan/288782500.webp" alt="Tolip hotel" class="w-100">
+                              <div class="card-body">
+                                <p class="card-title">Tolip<br>Hotel</p>
+                                <p class="text-warning">
+                                  <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              </p> 
+                              <span class="text-success">Exclient</span>
+                              <span class="text-muted">2500 reviewes</span>
+                              <p>1500 <span class="blue">EGP</span> per Night</p>
+                              
+                                <a href="#book" class="btn btn-primary">Book Now</a>
+                              </div>
+                            </div>
+                            
+                      </div> 
+                       <div class="col-lg-4 col-sm-6">
+                          <div class="card w-100" style="width: 18rem;">
+                              <img src="../assits/images/aswan/348924830.webp" alt="Sovetel hotel" class="w-100">
+                              <div class="card-body">
+                                <p class="card-title">Sovetel<br>Hotel</p>
+                                <p class="text-warning"><i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                              </p> 
+                              <span class="text-success">Good</span>
+                              <span class="text-muted">2000 reviewes</span>
+                              <p>600 <span class="blue">EGP</span> per Night</p>
+                              
+                                <a href="#book" class="btn btn-primary">Book Now</a>
+                              </div>
+                            </div>
+                            
+                      </div>
+                      </div>
+                    </div>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="container mx-auto my-5" id="book">
+                <div class="w-50 mx-auto">
+                <div class="booking__part position-relative">
+                    <p class="animate__animated animate__pulse text-center t-after fs-2">Book Now!</p>
+                        <div class="mt-5">
+                          <input type="text" class="form-control" placeholder="Where are you going ?" aria-label="text">
+                    </div>
+                    <div class>
+                      <input type="text" class="form-control" placeholder="Name" aria-label="text">
+                     </div>
+                     <div>
+                      <input type="text" class="form-control" placeholder="id" aria-label="text">
+                     </div>
+                       <div class="row">
+                        <div class="col-sm-6">
+                          <p class="mx-2 mb-0">check in</p>
+                          <input type="date" class="form-control" aria-label="date">
+                        </div>
+                        <div class="col-sm-6">
+                          <p class="mx-2 mb-0">check out</p>
+                            <input type="date" class="form-control" aria-label="date">
+                          </div>
+                        </div>
+                          <div class="row">
+                          <div class="col-lg-4">
+                            <div class="num">
+                            <input type="number" class="form-control" placeholder="number of people" aria-label="number">
+                          </div>
+                        </div>
+                        
+                          <div class="col-lg-4">
+                            <div class="rooms">
+                            <input type="number" class="form-control" placeholder="rooms" aria-label="number">
+                          </div>
+                        </div>
+                          <div class="col-lg-4">
+                            <div class="num">
+                            <input type="number" class="form-control" placeholder= "beds" aria-label="number">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-check check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <i class="fa-solid fa-money-bill-wave icons"></i>
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Cash
+                        </label>
+                      </div>
+                      <div class="form-check check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <i class="fa-brands fa-cc-visa icons"></i>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Visa
+                        </label>
+                      </div>
+                      <div class="bg-warning mt-2">
+                        <p class="text-light"> <i class="fa-solid fa-triangle-exclamation mx-2"></i> Please take the id you booked with you</p>
+                      </div>
+                        <button type="submit" class="btn btn-outline-primary button__search position-absolute">Book</button>
+                      </div>
+                   
+            </div>
+            </div>
+          </section>
+          <section class="container">
+          <div class="reviewes">
+            <p class="t-after fs-2 text-center">Our Customeres Reviewes</p>
+            <div class="row">
+              <div class="col-lg-4 col-sm-6">
+              <div class="box">
+                  <div class="containar">
+                  <img src="../assits/images/reviwes/p2.jpg" class="photo">
+              </div>    
+                  <p class="name"> yousef Mohamed</p>
+                  <p class="rate"> Excellent</p>
+              
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <i class="fa-solid fa-star star"></i>
+                  <p>
+                      Best location to Haram, shopping in same building where you can get every kind of shop.Especially thanks housekeeping Mohamed Nadeem 
+                  </p>
+                  
+              </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+              <div class="box" >
+                  <div class="containar">
+                      
+                      <img src="../assits/images/reviwes/p1.jpg" class="photo">
+                   </div>
+                      <p class="name">Gana Hesham</p>
+                      <p class="rate">good</p> 
+                  
+                      <i class="fa-solid fa-star star"></i>
+                      <i class="fa-solid fa-star star"></i>
+                      <i class="fa-solid fa-star star"></i>
+                      <p>Good hotel with excellent location</p>
+              
+              </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+              <div class="box">
+                  <div class="containar">
+                      <img src="../assits/images/reviwes/p3.jpg" class="photo">
+                     </div>
+                      <p class="name">hassan salah</p>
+                      <p class="rate"> Bad</p>
+                    
+                      <i class="fa-solid fa-star star"></i>
+                      <i class="fa-solid fa-star-half star"></i>
+                      <p>Room Super dirty smell bad and stink we request to move to a different room the hotel was full, could not get drinking water for 3 days!!!Never Again</p>
+              </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+              <div class="box">
+                  <div class="containar;">
+                      <img src="../assits/images/reviwes/p4.jpg" class="photo">
+                    </div>  
+                      <p class="name">Nada Mostafa</p>
+                      <p class="rate"> very good</p>
+                   
+                      <i class="fa-solid fa-star star"></i>
+                      <i class="fa-solid fa-star star"></i>
+                      <i class="fa-solid fa-star star"></i>
+                      <i class="fa-solid fa-star-half star"></i>
+                      <p>Pros: The huge balcony with such a lovely view of the golf course and facilities . the staff are very proactive and always helpful Cons: had an issue </p>
+              </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+              <div class="box">
+                  <div class="containar">
+                      <img src="../assits/images/reviwes/p5.jpg" class="photo">
+                   </div>   
+                      <p class="name">Mostafa Waeal</p>
+                      <p class="rate"> very good</p> 
+                  
+                      <i class="fa-solid fa-star star"></i>
+                      <i class="fa-solid fa-star star"></i>
+                      <i class="fa-solid fa-star star"></i>
+                      <i class="fa-solid fa-star-half star"></i>
+                      <p>extremely dirty apartment
+                          Pros: the location of the property is good Cons: The property was so dirty. the beds and towels were stained, the carpet was sticker there were ants everywhere </p>
+              </div>
+              </div>
+              <div class="col-lg-4 col-sm-6">
+              <div class="box">
+                  <div class="containar">
+                      <img src="../assits/images/reviwes/p6.jpg" class="photo">
+                   </div>   
+                      <p class="name">Ahmed Moktar</p>
+                      <p class="rate"> Bad</p>
+                   
+                      <i class="fa-solid fa-star star"></i>
+                      <i class="fa-solid fa-star-half star"></i>
+                      <p>Pros: The apartment it was not clean the bathroom are not clean bed was filthy with blood in and the company who having the apartment </p>
+                  
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+            <section class="login__section " id="log">
+              <div class="container">
+                  <div class="login__part w-50 mx-auto">
+                  <div class="text-center"><p class="t-after fs-2">Login Now!</p>
+                      <h4 class="h4__login">We will help you to find the right hotel for you..Login now and get 10% off! </h4>
+                  </div>
+                  <div class="form-floating mb-3 col-12">
+                          <input type="text" class="form-control" id="floatingInput" placeholder="text">
+                          <label for="floatingInput">Full Name</label>
+                      </div>  
+                  <div class="form-floating mb-3 col-12">
+                      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput">Email address</label>
+                  </div>  
+                  <div class="form-floating mb-3 col-12">
+                      <input type="inbut" class="form-control" id="floatingInput" placeholder="input">
+                      <label for="floatingInput">Phone number</label>
+                  </div>
+                  <div class="form-floating mb-3 col-12">
+                      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                      <label for="floatingPassword">Password</label>
+                  </div>
+                  <div class="form-floating mb-3 col-12">
+                      <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                      <label for="floatingPassword">Confirm password</label>
+                  </div>
+                  <div class="d-grid gap-2 col-12 mx-auto">
+                      <button class="btn btn-outline-primary rounded-pill login__button w-50 mx-auto" type="submit">Login Now</button>
+                  </div>
+                </div>
+          </div>
+          </section>    
+           
+    </main>
+    <footer class="bgg-blue text-center text-light">
+      <i class="fa-solid fa-mobile-screen-button fs-1 mt-3"></i>
+      <p>199999</p>
+      <span class="d-block"> &#169; All Rights Receive</span>
+    </footer>  
+    
+    <script src="../assits/js/bootstrap.bundle.min.js"></script>
+    <script src="../assits/js/all.min.js"></script>
+</body>
+</html>

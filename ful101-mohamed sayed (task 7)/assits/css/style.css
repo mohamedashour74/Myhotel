@@ -1,0 +1,190 @@
+body{
+    font-family: serif;
+}
+.img-wrapper img{
+    height: 200px;
+    width: 100%; 
+}
+.blue{
+    color:#0180d4;
+}
+.hi{
+    height: 80px;
+}
+.pic{
+    background-image: url(../images/a11acce1e59359bfbf894f68738f473d.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.bgg-blue{
+    background-color: #0180d4;
+}
+h1{
+    font-size: 3.5rem;
+    margin-bottom: 80px;
+}
+.filter{
+   background-color:rgba(92, 77, 66, 0.8);
+   z-index: 0;
+  
+}
+
+.headlink{
+    width: 75%;
+    padding: 30px;
+}
+.headlink a{
+text-decoration: none;
+padding-top:90px;
+padding-right: 30px;
+font-size: 20px;
+
+}
+header{
+  z-index: 56;
+}
+
+.search-bt{
+    color: #fff;
+}
+
+.wrapper {
+    transform:translateY(-50%);
+    top: 50%;
+}
+
+.t-after::after{
+    content: ' ';
+    width: 50px;
+    height: 3px;
+    background-color: #0180d4;
+    display: block;
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    margin-top: 20px;
+    
+  }
+
+.nav-link:hover, .navbar-brand:hover{
+    color: #0180d4;
+}
+.btn-xl{
+    padding: 1.25rem 2.25rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 10rem;
+    text-decoration: none;
+    color: #fff;
+}
+.btn-xl:hover{
+    background-color: #fff;
+    filter: brightness(70%);
+    color: #0180d4;
+}
+.btnn{
+    background-color: #0180d4;
+}
+.img-wrap:hover .hidden-div{
+    opacity: .75;
+}
+.about{
+    height: 70vh;
+}
+
+
+.login__section{
+    margin-top: 100px;
+}
+
+
+.h4__login{
+    opacity: 50%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.login__button:hover{
+    background-color:#0180d4;
+}
+.login__button{
+    margin-bottom: 30px;
+}
+.reviewes{
+  margin-top: 100px;
+}
+.reviewes * {
+    box-sizing: border-box;
+  }
+  
+  .box {
+    padding: 50px;
+    margin:14px;
+    background-color: white;
+    box-shadow: -30px 30px 20px rgb(0 0 0 / 30%);
+    border-radius: 25px;
+     
+    
+  }
+  .box:hover{
+    box-shadow:-30px 30px 20px #0180d4; 
+
+  }
+   
+  .name
+  {
+    font-size: 15px;
+    
+    margin-top: 0px; 
+    padding-left:0%;
+    padding-top: 0%;
+  }
+  .star{
+    color: gold;
+    padding-top: 5%;
+  }
+  .rate 
+  { margin-bottom: 0px;
+    color: green;
+    font-size: 10px;
+    opacity: 0.8;
+    padding-top: 0px;
+    padding-left:0%;
+  }
+  .photo
+  {
+    border: 2px;
+    border-radius: 60%;
+     height: 60px;
+     width: 60px;
+     padding-left: 0%;
+  }
+  .icons{
+    padding-left: 5px;
+    padding-right: 3px;
+    font-size: 20px;
+    color: rgb(35, 153, 35);
+}
+.check{
+    font-size: 18px;
+    font-weight: 500;
+    padding-left: 6.5%;
+}
+
+
+.button__search{
+    margin-top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.rooms{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.num{
+    margin-top: 10px;
+}
